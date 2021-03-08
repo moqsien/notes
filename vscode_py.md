@@ -35,6 +35,10 @@
   ```
 
 - vscode配置
+  - 文档
+  ```text
+  https://code.visualstudio.com/docs/python/editing
+  ```
 
   - python插件
   ```json
