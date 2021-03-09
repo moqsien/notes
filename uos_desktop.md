@@ -90,6 +90,14 @@
   sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
   sudo apt-get update
   sudo apt-get install google-chrome-stable
+  sudo apt-get install freeglut3-dev
+  pip install pyside2
+  ```
+- qt5安装
+  ```bash
+  sudo apt install build-essential
+  sudo apt install gdb cmake
+  sudo apt install libdtkwidget-dev qt5-default qtcreator
   ```
 - 安装appImage格式包
   
