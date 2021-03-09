@@ -84,6 +84,13 @@
   - 娱乐类
     - 网易运音乐
     - 腾讯视频
+- 安装google-chrome
+  ```bash
+  wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
+  sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+  sudo apt-get update
+  sudo apt-get install google-chrome-stable
+  ```
 - 安装appImage格式包
   
   - 使用appimage-installer
